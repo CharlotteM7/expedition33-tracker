@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Expedition 33 Tracker</title>
+</head>
+<body>
+  <img src="{{ url_for('static', filename='image.webp') }}" alt="Expedition 33 Banner" style="width: 100%; max-width: 800px; border-radius: 8px; margin-bottom: 2rem;">
+
+  <h1>Expedition 33 Progress Tracker</h1>
+
+  <form method="POST">
+    {% for category, items in data.items() %}
+      <details open class="category">
+        <summary>{{ category }}</summary>
+
+        {% for item in items %}
+          {% set label_key = category + '::' + (
+            item.name if item.get('name') else
+            item.Name if item.get('Name') else
+            item.location if item.get('location') else
+            item.room if item.get('room') else
+            item
+          ) %}
+          
+          <label class="{% if label_key in checked %}checked{% endif %}">
+            <input type="checkbox" name="checked" value="{{ label_key }}"
+              {% if label_key in checked %}checked{% endif %}>
+
+            {% if item is string %}
+              {{ item }}
+
+            {% elif item.get('Name') %}
+              <strong>{{ item.Name }}</strong><br>
+              <em>Type: {{ item.Type }}<br>Bonus: {{ item["Bonus Stats"] }}</em><br>
+              {{ item.Lumina }}
+              {% if item.Cost is defined %}
+                <span style="color: grey;">(Cost: {{ item.Cost }})</span>
+              {% endif %}
+
+            {% elif item.get('room') and item.get('entry_location') %}
+              <strong>{{ item.room }}</strong> from <em>{{ item.entry_location }}</em><br>
+              <small>{{ item.details }}</small>
+
+            {% elif item.get('location') and item.get('details') %}
+              <strong>{{ item.location }}</strong><br>
+              <small>{{ item.details }}</small>
+
+            {% elif item.get('name') and item.get('location') %}
+              <strong>{{ item.name }}</strong><br>
+              <em>{{ item.location }}</em><br>
+              {% if item.get('details') %}
+                <span class="details">{{ item.details }}</span>
+              {% endif %}
+
+            {% elif item.get('location') %}
+              {{ item.location }}
+
+            {% endif %}
+          </label><br><br>
+        {% endfor %}
+      </details>
+    {% endfor %}
+
+    <button type="submit">Update</button>
+  </form>
+
+  <button type="button" onclick="localStorage.clear(); location.reload();">Reset All Progress</button>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+      checkboxes.forEach(cb => {
+        const saved = localStorage.getItem(cb.value);
+        if (saved === "true") {
+          cb.checked = true;
+          cb.parentElement.classList.add("checked");
+        }
+
+        cb.addEventListener("change", () => {
+          localStorage.setItem(cb.value, cb.checked);
+          if (cb.checked) {
+            cb.parentElement.classList.add("checked");
+          } else {
+            cb.parentElement.classList.remove("checked");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1778 @@
+{
+"Lost Gestrals": [
+  { "location": "Esquie's Nest – just south of the entrance" },
+  { "location": "Stone Wave Cliffs – on the right path past Bourgeon miniboss" },
+  { "location": "White Tree – on the island east of entrance (requires swim)" },
+  { "location": "Monoco's Station – between two trees by station entrance" },
+  { "location": "Coastal Cave – on a beach above the cave (requires swim)" },
+  { "location": "Red Island – behind two mimes on the red island near Old Lumiere" },
+  { "location": "The Reacher – below its entrance (requires fly)" },
+  { "location": "Endless Night Sanctuary – in red forest outside entrance (requires fly)" },
+  { "location": "Endless Tower – on floating island next to tower (requires fly)" }
+  ],
+
+  "Manor Doors": [
+    {
+      "entry_location": "Flying Waters",
+      "room": "Foyer",
+      "details": "Found near a cliffside in Flying Waters, close to the spawn point. Look for a small ruined building."
+    },
+    {
+      "entry_location": "Gestral Village",
+      "room": "Kitchen",
+      "details": "Located behind the waterfall in Gestral Village. You'll need to loop around to access the hidden cave entrance."
+    },
+    {
+      "entry_location": "Stone Wave Cliffs",
+      "room": "Bedroom",
+      "details": "On the right-hand pathway past the Bourgeon miniboss. It’s tucked behind some trees overlooking the water."
+    },
+    {
+      "entry_location": "Old Lumière",
+      "room": "Bathroom",
+      "details": "Near the red bridge area. The door is beside a collapsed arch near the lake."
+    },
+    {
+      "entry_location": "Visages",
+      "room": "Playroom",
+      "details": "At the edge of the forest before entering the eerie visage zone. Look for the playground structure near a statue."
+    },
+    {
+      "entry_location": "Sirene",
+      "room": "Bathroom",
+      "details": "Found near the upper waterfall path in Sirene. Follow the stream until you see a cracked mirror on the wall."
+    },
+    {
+      "entry_location": "The Monolith",
+      "room": "Greenhouse",
+      "details": "On a platform below the main elevator room. You must glide or drop down to reach it safely."
+    },
+    {
+      "entry_location": "Falling Leaves",
+      "room": "Study",
+      "details": "Hidden in a small clearing past the central lake. Requires careful navigation through tight foliage."
+    },
+    {
+      "entry_location": "Frozen Hearts",
+      "room": "Workshop",
+      "details": "Located in a frozen cavern at the base of the waterfall. Follow the icy path and look for cracked ice walls."
+    },
+    {
+      "entry_location": "The Continent #1",
+      "room": "Library (Continent Island)",
+      "details": "Reached via flying. Land on the large floating island north of the cliffs. The door is hidden behind a tree."
+    },
+    {
+      "entry_location": "The Reacher",
+      "room": "Study",
+      "details": "On a platform just below the main entrance. Glide down from the Reacher peak and check the rocks below."
+    },
+    {
+      "entry_location": "The Continent #2",
+      "room": "Study (Continent Island SE of Cliffs)",
+      "details": "Fly to the isolated southeast island. The door is hidden behind a pillar with vines near the cliff edge."
+    },
+    {
+      "entry_location": "Canvas (after placing Family Canvas)",
+      "room": "Dining Hall Secret Room",
+      "details": "After placing the Family Canvas in the Manor, a hidden room opens behind the dining hall fireplace."
+    }
+  ],
+  "Mimes": [
+    {
+      "location": "Lumiere (Prologue)",
+      "details": "To the right of the stage, past the market as you head down to the harbour. This is the only missable Mime."
+    },
+    {
+      "location": "Spring Meadows",
+      "details": "Past the Grand Meadow flag, follow the left cliff path to a circular platform between broken pillars."
+    },
+    {
+      "location": "Flying Waters",
+      "details": "East of the Coral Cave flag, turn right past the colossal Nevron, pass through seaweed to find the Mime."
+    },
+    {
+      "location": "Ancient Sanctuary",
+      "details": "From the Sanctuary Maze flag, take right path under a rock hut—Mime is behind the broken hut."
+    },
+    {
+      "location": "Esquie’s Nest",
+      "details": "Ahead of Esquie’s Nest entrance, drop down into the crater to find the Mime."
+    },
+    {
+      "location": "Yellow Harvest",
+      "details": "Near Harvester’s Hollow flag, head through the rock alcove to a small cave with the Mime."
+    },
+    {
+      "location": "Frozen Hearts",
+      "details": "From Iced Heart flag, grapple up frozen train path past merchant — Mime is near boxes."
+    },
+    {
+      "location": "Old Lumiere",
+      "details": "From Right Street flag, follow the fading man, grapple up ledges to Mime on the upper level."
+    },
+    {
+      "location": "The Continent (red island)",
+      "details": "On the red‑tree island SW of Visages, two Mimes stand together holding hands."
+    },
+    {
+      "location": "Visages",
+      "details": "From Joyous Vale flag, head left to cliff edge and search behind a tree for the Mime."
+    },
+    {
+      "location": "Sirene",
+      "details": "Just before Sewing Atelier, up the stairs, mime hides in a dark alcove."
+    },
+    {
+      "location": "The Monolith",
+      "details": "Past Tainted Cliffs flag—descend the rope near altar to find Mime flanked by two Nevrons."
+    },
+    {
+      "location": "The Reacher",
+      "details": "From Ladder Area flag, descend the rope to a lower platform where the Mime awaits."
+    },
+    {
+      "location": "Flying Manor",
+      "details": "After Central Plaza flag, ride elevator, cross bridge, descend rope to reach Mime above."
+    },
+    {
+      "location": "Sunless Cliffs",
+      "details": "Past the Chroma Portal; this is the hardest Mime—found at the cave's other end."
+    }
+  ],
+
+  "Music Records": [
+    { "name": "Alicia", "location": "The Manor (Alicia's Study)" },
+    { "name": "Alicia's Birthday Party", "location": "Boat Graveyard" },
+    { "name": "Aline", "location": "White Sands" },
+    { "name": "Aline's Glasshouse", "location": "Lost Woods" },
+    { "name": "Children of Lumière", "location": "The Continent (Buy from Citrelo)" },
+    { "name": "Clea", "location": "Endless Tower" },
+    { "name": "Clea! Don't Pull Your Sister's Hair!", "location": "The Manor (Clea's Art Room)" },
+    { "name": "Endless Light", "location": "Renoir's Drafts" },
+    { "name": "Forlorn", "location": "The Manor (From The Continent)" },
+    { "name": "Goblu", "location": "The Continent (Buy from Blabary)" },
+    { "name": "Gustave", "location": "Stone Wave Cliffs" },
+    { "name": "Honeymoon in Lumière", "location": "White Tree" },
+    { "name": "L'Amour d'une Mère", "location": "The Manor (Via The Monolith)" },
+    { "name": "Le Grand Café de Lumière", "location": "The Carousel" },
+    { "name": "Lettre à Maelle", "location": "Camp (Story Event)" },
+    { "name": "Lights of the Past", "location": "Ancient Gestral City" },
+    { "name": "Linen and Cotton", "location": "The Continent (Buy from Rubiju)" },
+    { "name": "Lost Voice", "location": "The Continent (Buy from Strabami)" },
+    { "name": "Lumière", "location": "Lumière (Mime Drop or Opera House)" },
+    { "name": "Lune", "location": "Camp (Relationship Level 6 + Side Quest)" },
+    { "name": "Monoco", "location": "Camp (Relationship Level 6 + Side Quest)" },
+    { "name": "Nocturne pour Lumière", "location": "Sinister Cave" },
+    { "name": "Nocturne pour un masque de tristesse", "location": "The Manor (Dining Room Puzzle)" },
+    { "name": "Our Drafts Collide", "location": "Camp (Final Boss Completion)" },
+    { "name": "Our Painted Family", "location": "The Meadows" },
+    { "name": "Renoir", "location": "The Manor (Sink near Old Lumière Entrance)" },
+    { "name": "Robe de Jour", "location": "The Continent (Buy from Rederi)" },
+    { "name": "Révérence", "location": "Blades' Graveyard" },
+    { "name": "Rêveries dans Paris", "location": "Flying Casino" },
+    { "name": "Sciel", "location": "Camp (Relationship Level 6)" },
+    { "name": "Un 33 Décembre à Lumière", "location": "Twilight Quarry" },
+    { "name": "Until Next Life", "location": "Falling Leaves (After Scavenger Boss + Young Boy)" },
+    { "name": "Verso", "location": "Camp (Relationship Level 6)" }
+  ],
+
+"Journal Entries": [
+  {
+    "name": "Journal - Aline",
+    "location": "The Manor",
+    "details": "Enter The Manor from the entrance in the Tainted Battlefield in The Monolith to reach the Garden, Journal - Aline can be found by the statue in the center."
+  },
+  {
+    "name": "Journal - Expedition 34",
+    "location": "The Crows",
+    "details": "Requires Esquie's swim or fly ability to reach the location. Can be found to the right of the Entrance Expedition Flag."
+  },
+  {
+    "name": "Journal - Expedition 35",
+    "location": "Falling Leaves",
+    "details": "Can be found next to the bridge leading to the Chromatic Ballet within the Resinveil Grove."
+  },
+  {
+    "name": "Journal - Expedition 36",
+    "location": "White Tree",
+    "details": "Found to the right at the base of the tree upon entering White Tree."
+  },
+  {
+    "name": "Journal - Expedition 37",
+    "location": "Gestral Beach",
+    "details": "Requires Esquie's fly ability to reach the gestral beach."
+  },
+  {
+    "name": "Journal - Expedition 38",
+    "location": "Yellow Harvest",
+    "details": "From Harvester's Hollow Flag walk down towards the area. Before jumping down turn right to see a slope which you can walk up to an elevated area."
+  },
+  {
+    "name": "Journal - Expedition 39",
+    "location": "Visages",
+    "details": "In the Sadness Vale area, after picking up the Energy Tint Shard, head to the other path and climb up the ledge to find the journal."
+  },
+  {
+    "name": "Journal - Expedition 40",
+    "location": "The Continent",
+    "details": "Exit Sirene and swim toward The Monolith, after watching the cutscene and breaking the barrier, pick up the journal in the upper left corner of the isle."
+  },
+  {
+    "name": "Journal - Expedition 41",
+    "location": "Forgotten Battlefield",
+    "details": "In the Battlefield section, go to the trenches on the right side of the Fading Woman. On the left side is a small area containing the journal."
+  },
+  {
+    "name": "Journal - Expedition 42",
+    "location": "Old Lumiere",
+    "details": "From the Manor Gardens Flag, walk straight along the garden wall to reach a path. Follow it, take the rope down, defeat the enemy and pick up the journal."
+  },
+    {
+        "name": "Journal - Expedition 43",
+        "location": "The Continent",
+        "details": "Found in an abandoned expedition camp on an island northeast of the Coastal Cave. Requires Esquie and the ability to destroy coral reefs."
+    },
+    {
+        "name": "Journal - Expedition 44",
+        "location": "Yellow Harvest",
+        "details": "From Harvester's Hollow Flag, go left past the slope. Found in front of a corpse holding a lit lamp."
+    },
+    {
+        "name": "Journal - Expedition 45",
+        "location": "Crushing Cavern",
+        "details": "After defeating the Giant Sapling, take the left fork in the tunnel to find it at the end."
+    },
+    {
+        "name": "Journal - Expedition 46",
+        "location": "Sirene's Dress",
+        "details": "Located by rubble across the arena where you fight the Chromatic Glissando."
+    },
+    {
+        "name": "Journal - Expedition 47",
+        "location": "The Continent",
+        "details": "Beside a collapsed structure near the merchant Carnovi."
+    },
+    {
+        "name": "Journal - Expedition 48",
+        "location": "Stone Quarry",
+        "details": "Exact placement details not provided."
+    },
+    {
+        "name": "Journal - Expedition 49",
+        "location": "Falling Leaves",
+        "details": "Open the gate behind the boy, continue to the cliff above. Found by broken stairs."
+    },
+    {
+        "name": "Journal - Expedition 50",
+        "location": "Stone Wave Cliffs",
+        "details": "From Paintress Shrine Flag, cross the bridge and take the left path."
+    },
+    {
+        "name": "Journal - Expedition 51",
+        "location": "Frozen Hearts",
+        "details": "From Icebound Train Station, go up the hill and through the crack near the train end."
+    },
+    {
+        "name": "Journal - Expedition 52",
+        "location": "Gestral Village",
+        "details": "Located on a narrow path near the Gestral Doctor."
+    },
+    {
+        "name": "Journal - Expedition 53",
+        "location": "The Small Bourgeon",
+        "details": "At the end of the path to the left of the Bourgeon."
+    },
+    {
+        "name": "Journal - Expedition 54",
+        "location": "Stone Wave Cliffs Cave",
+        "details": "On the right side of the Arena where you fight the Chromatic Hexga."
+    },
+    {
+        "name": "Journal - Expedition 55",
+        "location": "Sirene",
+        "details": "From Dancing Classes Flag, go to plaza filled with enemies. Found on the right."
+    },
+    {
+        "name": "Journal - Expedition 56",
+        "location": "Stone Wave Cliffs",
+        "details": "From Entrance Flag, go through broken airship and down left path. Found at base of statue."
+    },
+    {
+        "name": "Journal - Expedition 57",
+        "location": "Forgotten Battlefield",
+        "details": "After Paint Cage area, find open field and the journal in the middle."
+    },
+    {
+        "name": "Journal - Expedition 58",
+        "location": "Old Lumiere",
+        "details": "Acquired during cutscene with Lune, Sciel, and Monoco past Left Street Flag."
+    },
+    {
+        "name": "Journal - Expedition 59",
+        "location": "Yellow Harvest",
+        "details": "From Yellow Spire Wrecks Flag, head left into cave to find it in the middle structure."
+    },
+    {
+        "name": "Journal - Expedition 60",
+        "location": "Lumiere (Act III)",
+        "details": "Outside Opera House, interact with ledge. Esquie retrieves the item (the journal)."
+    },
+    {
+        "name": "Journal - Expedition 61",
+        "location": "The Reacher",
+        "details": "From Foggy Area Flag, go through cave near lit upper field to find it."
+    },
+    {
+        "name": "Journal - Expedition 62",
+        "location": "The Continent",
+        "details": "Found at a camp on the beach behind Gestral Village."
+    },
+    {
+        "name": "Journal - Expedition 63",
+        "location": "Ancient Sanctuary",
+        "details": "Near Paint Cage in the Sanctuary Maze at a fork in the path."
+    },
+    {
+        "name": "Journal - Expedition 64",
+        "location": "The Continent",
+        "details": "Along path left of The Meadows entrance. Requires Esquie's swim ability."
+    },
+    {
+        "name": "Journal - Expedition 65",
+        "location": "Monoco's Station",
+        "details": "After defeating the Stalact, cross the tracks and turn left."
+    },
+    {
+        "name": "Journal - Expedition 66",
+        "location": "Esquie's Nest",
+        "details": "At a camp on the fork after Esquie joins your party."
+    },
+    {
+        "name": "Journal - Expedition 67",
+        "location": "Sirene",
+        "details": "Found by boxes after being transported past Crumbling Path Flag."
+    },
+    {
+        "name": "Journal - Expedition 68",
+        "location": "Flying Waters",
+        "details": "In Coral Cave at the path with lanterns at the beginning."
+    },
+    {
+        "name": "Journal - Expedition 69",
+        "location": "Visages",
+        "details": "In Joyful Vale behind enemies on the left path."
+    },
+    {
+        "name": "Journal - Expedition 70",
+        "location": "The Monolith",
+        "details": "Behind the flower stalls and building after navigating broken streets from Tainted Lumiere Flag."
+    },
+    {
+        "name": "Journal - Expedition 78",
+        "location": "Stone Wave Cliffs",
+        "details": "From Entrance Flag, take top right path. Found on the right at the top."
+    },
+    {
+        "name": "Journal - Expedition 81",
+        "location": "Spring Meadows",
+        "details": "Acquired in cutscene when Lune and Gustave find Jar."
+    },
+    {
+        "name": "Journal - Expedition 84",
+        "location": "The Fountain",
+        "details": "On path to the right of the fountain. Requires Esquie’s fly ability."
+    },
+    {
+        "name": "Journal - Julie",
+        "location": "The Continent",
+        "details": "Beside collapsed tent west of Forgotten Battlefield. Requires Esquie and ability to Fly."
+    },
+    {
+        "name": "Journal - Renoir",
+        "location": "The Manor",
+        "details": "Enter from Old Lumiere, found on nightstand in bedroom after bathroom."
+    },
+    {
+        "name": "Journal - Simon",
+        "location": "The Abyss",
+        "details": "Found in middle of area after defeating Simon."
+    },
+    {
+        "name": "Journal - Survivor",
+        "location": "Old Lumiere",
+        "details": "Inside broken pipe in second field. Use Old Key on gate."
+    },
+    {
+        "name": "Journal - Unknown 1",
+        "location": "The Manor",
+        "details": "Inside bedroom accessed from Visages."
+    },
+    {
+        "name": "Journal - Unknown 2",
+        "location": "The Manor",
+        "details": "Inside room accessed from The Reacher."
+    },
+    {
+        "name": "Journal - Unknown 3 (The Manor)",
+        "location": "The Manor (Painting Room)",
+        "details": "Place Manor Family Canvas on empty frame by east wing stairs near Expedition Flag."
+    },
+    {
+        "name": "Journal - Verso",
+        "location": "The Continent",
+        "details": "At foot of destroyed building. Requires Esquie's swim or fly ability."
+    }
+],
+
+  "Pictos": [
+  {
+    "Name": "Accelerating Heal",
+    "Lumina": "Healing an ally also applies Rush for 1 turn.",
+    "Type": "Support",
+    "Bonus Stats": "Health +329, Speed +65",
+    "Cost": 5
+  },
+  {
+    "Name": "Accelerating Last Stand",
+    "Lumina": "Gain Rush if fighting alone.",
+    "Type": "Support",
+    "Bonus Stats": "Health +168, Speed +34",
+    "Cost": 3
+  },
+  {
+    "Name": "Accelerating Shots",
+    "Lumina": "20% chance to gain Rush on Free Aim shot.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 3
+  },
+  {
+    "Name": "Accelerating Tint",
+    "Lumina": "Healing Tints also apply Rush.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Speed",
+    "Cost": 5
+  },
+  {
+    "Name": "Aegis Revival",
+    "Lumina": "+1 Shield on being revived.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense, Speed",
+    "Cost": 5
+  },
+  {
+    "Name": "Anti-Blight",
+    "Lumina": "Immune to Blight.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 10
+  },
+  {
+    "Name": "Anti-Burn",
+    "Lumina": "Immune to Burn.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 15
+  },
+  {
+    "Name": "Anti-Charm",
+    "Lumina": "Immune to Charm",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +599, Defense +240",
+    "Cost": 10
+  },
+  {
+    "Name": "Anti-Freeze",
+    "Lumina": "Immune to Freeze.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 15
+  },
+  {
+    "Name": "Anti-Stun",
+    "Lumina": "Immune to Stun",
+    "Type": "Defensive",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 5
+  },
+  {
+    "Name": "At Death's Door",
+    "Lumina": "Deal 50% more damage if Health is below 10%.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +96, Critical Rate +11%",
+    "Cost": 5
+  },
+  {
+    "Name": "Attack Lifesteal",
+    "Lumina": "Recover 15% Health on Base Attack.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +44, Speed +32",
+    "Cost": 15
+  },
+  {
+    "Name": "Augmented Aim",
+    "Lumina": "50% increased Free Aim damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +39, Critical Rate +5%",
+    "Cost": 3
+  },
+  {
+    "Name": "Augmented Attack",
+    "Lumina": "50% increased Base Attack damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +8, Speed +10",
+    "Cost": 7
+  },
+  {
+    "Name": "Augmented Counter I",
+    "Lumina": "25% increased Counterattack damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +90, Critical Rate +4%",
+    "Cost": 3
+  },
+  {
+    "Name": "Augmented Counter II",
+    "Lumina": "50% increased Counterattack damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +208, Critical Rate +15%",
+    "Cost": 5
+  },
+  {
+    "Name": "Augmented Counter III",
+    "Lumina": "75% increased Counterattack damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense, Critical Rate",
+    "Cost": 7
+  },
+  {
+    "Name": "Augmented First Strike",
+    "Lumina": "50% increased damage on the first hit. Once per battle.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +51, Critical Rate +5%",
+    "Cost": 5
+  },
+  {
+    "Name": "Auto Death",
+    "Lumina": "Kill self on battle start",
+    "Type": "Support",
+    "Bonus Stats": "Critical Rate +26%",
+    "Cost": 1
+  },
+  {
+    "Name": "Auto Powerful",
+    "Lumina": "Apply Powerful for 3 turns on battle start.",
+    "Type": "Support",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 10
+  },
+  {
+    "Name": "Auto Regen",
+    "Lumina": "Apply Regen for 3 turns on battle start.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense +479, Critical Rate",
+    "Cost": 10
+  },
+  {
+    "Name": "Auto Rush",
+    "Lumina": "Apply Rush for 3 turns on battle start.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +112, Critical Rate +7%",
+    "Cost": 10
+  },
+  {
+    "Name": "Auto Shell",
+    "Lumina": "Apply Shell for 3 turns on battle start.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +411",
+    "Cost": 10
+  },
+  {
+    "Name": "Base Shield",
+    "Lumina": "+1 Shield if not affected by any Shield on turn start.",
+    "Type": "Defensive",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 20
+  },
+  {
+    "Name": "Beneficial Contamination",
+    "Lumina": "+2 AP on applying a Status Effect. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense, Speed",
+    "Cost": 15
+  },
+  {
+    "Name": "Break Specialist",
+    "Lumina": "Break damage is increased by 50%, but base damage is reduced by 20%.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Speed",
+    "Cost": 1
+  },
+  {
+    "Name": "Breaker",
+    "Lumina": "25% increased Break damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +26, Critical Rate +9%",
+    "Cost": 10
+  },
+  {
+    "Name": "Breaking Attack",
+    "Lumina": "Base Attack can Break.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 10
+  },
+  {
+    "Name": "Breaking Burn",
+    "Lumina": "25% increased Break damage on Burning enemies.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +243, Critical Rate +9%",
+    "Cost": 5
+  },
+  {
+    "Name": "Breaking Counter",
+    "Lumina": "50% increased Break damage on Counterattack.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +43, Critical Rate +10%",
+    "Cost": 3
+  },
+  {
+    "Name": "Breaking Death",
+    "Lumina": "Fully charge enemy's Break Bar on death.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +586, Critical Rate +33%",
+    "Cost": 5
+  },
+  {
+    "Name": "Breaking Shots",
+    "Lumina": "50% increased Break damage with Free Aim Shots.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +43, Critical Rate +10%",
+    "Cost": 1
+  },
+  {
+    "Name": "Breaking Slow",
+    "Lumina": "25% increased Break damage against Slowed enemies",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 5
+  },
+  {
+    "Name": "Burn Affinity",
+    "Lumina": "25% increased damage on Burning Targets.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 10
+  },
+  {
+    "Name": "Burning Break",
+    "Lumina": "Apply 3 Burn stacks on Breaking a target.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Critical Rate",
+    "Cost": 3
+  },
+  {
+    "Name": "Burning Death",
+    "Lumina": "Apply 3 Burn to all enemies on Death.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +308, Critical Rate +24%",
+    "Cost": 5
+  },
+  {
+    "Name": "Burning Mark",
+    "Lumina": "Apply Burn on hitting a Marked enemy.",
+    "Type": "Support",
+    "Bonus Stats": "Health +44, Defense +32",
+    "Cost": 15
+  },
+  {
+    "Name": "Burning Shots",
+    "Lumina": "20% chance to Burn on Free Aim shot.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +15, Critical Rate +2%",
+    "Cost": 3
+  },
+  {
+    "Name": "Charging Alteration",
+    "Lumina": "+10% of a Gradient Charge on applying a Buff. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense, Speed",
+    "Cost": 10
+  },
+  {
+    "Name": "Charging Attack",
+    "Lumina": "+15% of a Gradient Charge on Base Attack.",
+    "Type": "Support",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 7
+  },
+  {
+    "Name": "Charging Burn",
+    "Lumina": "+20% of Gradient Charge on applying Burn. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Speed",
+    "Cost": 10
+  },
+  {
+    "Name": "Charging Counter",
+    "Lumina": "+10% of a Gradient Charge on Counterattack.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 10
+  },
+  {
+    "Name": "Charging Critical",
+    "Lumina": "+20% of a Gradient Charge on Critical Hit. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +1891, Critical Rate +35%",
+    "Cost": 10
+  },
+  {
+    "Name": "Charging Mark",
+    "Lumina": "+20% of a Gradient Charge on hitting a Marked target. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 10
+  },
+  {
+    "Name": "Charging Stun",
+    "Lumina": "+5% of a Gradient Charge on hitting a Stunned enemy.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Speed",
+    "Cost": 5
+  },
+  {
+    "Name": "Charging Tint",
+    "Lumina": "+5% of a Gradient Charge on using an item.",
+    "Type": "Support",
+    "Bonus Stats": "Health +329, Defense +112",
+    "Cost": 2
+  },
+  {
+    "Name": "Charging Weakness",
+    "Lumina": "+15% of a Gradient Charge on hitting a Weakness. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 5
+  },
+  {
+    "Name": "Cheater",
+    "Lumina": "Always play twice in a row.",
+    "Type": "Support",
+    "Bonus Stats": "Health +1198, Speed +400",
+    "Cost": 40
+  },
+  {
+    "Name": "Clea's Life",
+    "Lumina": "On turn start, if no damage taken since last turn, recover 100% Health.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health",
+    "Cost": 30
+  },
+  {
+    "Name": "Cleansing Tint",
+    "Lumina": "Healing Tints also remove all Status Effects from the target.",
+    "Type": "Support",
+    "Bonus Stats": "Health +35, Defense +6",
+    "Cost": 5
+  },
+  {
+    "Name": "Combo Attack I",
+    "Lumina": "Base Attack has 1 extra hit.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +93, Crit Rate +6%",
+    "Cost": 10
+  },
+  {
+    "Name": "Combo Attack II",
+    "Lumina": "Base Attack has 1 extra hit.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +836, Critical Rate +16%",
+    "Cost": 20
+  },
+  {
+    "Name": "Combo Attack III",
+    "Lumina": "Base Attack has 1 extra hit.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +619, Critical Rate +14%",
+    "Cost": 40
+  },
+  {
+    "Name": "Confident",
+    "Lumina": "Take 50% less damage, but can't be Healed.",
+    "Type": "Defensive",
+    "Bonus Stats": "Speed +41, Crit Rate +10%",
+    "Cost": 20
+  },
+  {
+    "Name": "Confident Fighter",
+    "Lumina": "30% increased damage, but can't be Healed.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +222, Crit Rate +20%",
+    "Cost": 15
+  },
+  {
+    "Name": "Critical Break",
+    "Lumina": "25% increased Break damage on Critical Hits.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +203, Crit Rate +8%",
+    "Cost": 5
+  },
+  {
+    "Name": "Critical Burn",
+    "Lumina": "25% increased Critical Chance on Burning enemies.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +8, Critical Rate +6%",
+    "Cost": 5
+  },
+  {
+    "Name": "Critical Moment",
+    "Lumina": "50% increased Critical Chance if Health is below 30%.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +26, Critical Rate +9%",
+    "Cost": 5
+  },
+  {
+    "Name": "Critical Stun",
+    "Lumina": "100% Critical Chance on hitting a Stunned target.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense, Critical Rate",
+    "Cost": 5
+  },
+  {
+    "Name": "Critical Vulnerability",
+    "Lumina": "25% increased Critical Chance on Defenceless enemies.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +116, Speed +62",
+    "Cost": 5
+  },
+  {
+    "Name": "Critical Weakness",
+    "Lumina": "25% increased Critical Chance on Weakness",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +670, Crit Rate +14%",
+    "Cost": 5
+  },
+  {
+    "Name": "Dead Energy I",
+    "Lumina": "+3 AP on killing an enemy.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +162, Crit Rate +17%",
+    "Cost": 2
+  },
+  {
+    "Name": "Dead Energy II",
+    "Lumina": "+3 AP on killing an enemy.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +4, Critical Rate +9%",
+    "Cost": 2
+  },
+  {
+    "Name": "Death Bomb",
+    "Lumina": "On Death, deal damage to all enemies.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +43, Crit Rate +10%",
+    "Cost": 5
+  },
+  {
+    "Name": "Defensive Mode",
+    "Lumina": "On receiving damage, consume 1 AP to take 30% less damage, if possible.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +216, Defense +71",
+    "Cost": 1
+  },
+  {
+    "Name": "Dodger",
+    "Lumina": "Gain 1 AP on Perfect Dodge. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +12, Critical Rate +3%",
+    "Cost": 1
+  },
+  {
+    "Name": "Double Burn",
+    "Lumina": "On applying a Burn stack, apply a second one.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed +132, Crit Rate +7%",
+    "Cost": 30
+  },
+  {
+    "Name": "Double Mark",
+    "Lumina": "Mark requires 1 more hit to be removed.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +236",
+    "Cost": 20
+  },
+  {
+    "Name": "Draining Cleanse",
+    "Lumina": "Consume 1 AP to prevent Status Effects application, if possible.",
+    "Type": "Support",
+    "Bonus Stats": "Health +2,000, Defense +324",
+    "Cost": 15
+  },
+  {
+    "Name": "Effective Heal",
+    "Lumina": "Double all Heals received.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +284, Defense +341",
+    "Cost": 30
+  },
+  {
+    "Name": "Effective Support",
+    "Lumina": "+2 AP on using an item.",
+    "Type": "Support",
+    "Bonus Stats": "Health, Speed",
+    "Cost": 5
+  },
+  {
+    "Name": "Empowering Attack",
+    "Lumina": "Gain Powerful for 1 turn on Base Attack.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +12, Critical Rate +3%",
+    "Cost": 10
+  },
+  {
+    "Name": "Empowering Break",
+    "Lumina": "Gain Powerful on Breaking a target.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +546, Critical Rate +32%",
+    "Cost": 3
+  },
+  {
+    "Name": "Empowering Dodge",
+    "Lumina": "5% increased damage for each consecutive successful Dodge. Can stack up to 10 times.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +162, Critical Rate +17%",
+    "Cost": 5
+  },
+  {
+    "Name": "Empowering Last Stand",
+    "Lumina": "Gain Powerful if fighting alone.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +168, Critical Rate +10%",
+    "Cost": 3
+  },
+  {
+    "Name": "Empowering Parry",
+    "Lumina": "Each successful Parry increases damage by 5% until end of the following turn. Taking any damage removes this buff.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +162, Critical Rate +17%",
+    "Cost": 5
+  },
+  {
+    "Name": "Empowering Tint",
+    "Lumina": "Healing Tints also apply Powerful.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +270, Speed +54",
+    "Cost": 5
+  },
+  {
+    "Name": "Energetic Healer",
+    "Lumina": "+2 AP on Healing an ally. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense, Speed",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Attack I",
+    "Lumina": "+1 AP on Base Attack.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +62, Crit Rate +5%",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Attack II",
+    "Lumina": "+1 AP on Base Attack.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +120, Speed +177",
+    "Cost": 15
+  },
+  {
+    "Name": "Energising Break",
+    "Lumina": "+3 AP on Breaking a target.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +14, Critical Rate +7%",
+    "Cost": 3
+  },
+  {
+    "Name": "Energising Burn",
+    "Lumina": "+1 AP on applying Burn. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +401, Speed +321",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Cleanse",
+    "Lumina": "Dispel the first negative Status Effect received and gain 2 AP.",
+    "Type": "Support",
+    "Bonus Stats": "Health +1,166, Defense +160",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Death",
+    "Lumina": "On death, +4 AP to allies.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +96, Speed +54",
+    "Cost": 5
+  },
+  {
+    "Name": "Energising Gradient",
+    "Lumina": "+1 AP per Gradient Charge consumed.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +293, Crit Rate +10%",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Heal",
+    "Lumina": "On Healing an ally, also give 2 AP.",
+    "Type": "Support",
+    "Bonus Stats": "Health +206, Speed +41",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Jump",
+    "Lumina": "+1 AP on Jump Counterattack.",
+    "Type": "Support",
+    "Bonus Stats": "Health +44, Speed +29",
+    "Cost": 5
+  },
+  {
+    "Name": "Energising Pain",
+    "Lumina": "No longer gain AP on Parry. +1 AP on getting hit.",
+    "Type": "Support",
+    "Bonus Stats": "Health +308, Defense +34",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Parry",
+    "Lumina": "+1 AP on successful Parry.",
+    "Type": "Support",
+    "Bonus Stats": "Health +626",
+    "Cost": 15
+  },
+  {
+    "Name": "Energising Powerful",
+    "Lumina": "Give 2 AP on applying Powerful.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +373, Speed +173",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Revive",
+    "Lumina": "+3 AP to all allies when revived.",
+    "Type": "Support",
+    "Bonus Stats": "Health +270, Defense +96",
+    "Cost": 5
+  },
+  {
+    "Name": "Energising Rush",
+    "Lumina": "Give 2 AP on applying Rush.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +801, Speed +321",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Shell",
+    "Lumina": "Give 2 AP on applying Shell.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +319, Speed +154",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Shots",
+    "Lumina": "20% chance to gain 1 AP on Free Aim shot.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +779, Crit Rate +16%",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Start I",
+    "Lumina": "+1 AP on battle start.",
+    "Type": "Support",
+    "Bonus Stats": "Health +320",
+    "Cost": 5
+  },
+  {
+    "Name": "Energising Start II",
+    "Lumina": "+1 AP on battle start.",
+    "Type": "Support",
+    "Bonus Stats": "Health +175",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Start III",
+    "Lumina": "+1 AP on battle start.",
+    "Type": "Support",
+    "Bonus Stats": "Health +320",
+    "Cost": 15
+  },
+  {
+    "Name": "Energising Start IV",
+    "Lumina": "+1 AP on battle start.",
+    "Type": "Support",
+    "Bonus Stats": "Health +513",
+    "Cost": 20
+  },
+  {
+    "Name": "Energising Stun",
+    "Lumina": "+1 AP on hitting a Stunned target with a Skill.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +519, Crit Rate +31%",
+    "Cost": 10
+  },
+  {
+    "Name": "Energising Turn",
+    "Lumina": "+1 AP on turn start.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +270",
+    "Cost": 20
+  },
+  {
+    "Name": "Energy Master",
+    "Lumina": "Every AP gain is increased by 1.",
+    "Type": "Support",
+    "Bonus Stats": "Health +4,970",
+    "Cost": 40
+  },
+  {
+    "Name": "Enfeebling Attack",
+    "Lumina": "Base Attack applies Powerless for 1 turn.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +389, Defense +478",
+    "Cost": 10
+  },
+  {
+    "Name": "Enfeebling Mark",
+    "Lumina": "Marked targets deal 30% less damage.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +102, Speed +21",
+    "Cost": 10
+  },
+  {
+    "Name": "Exhausting Power",
+    "Lumina": "50% increased damage if Exhausted.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +270, Defense +96",
+    "Cost": 2
+  },
+  {
+    "Name": "Exposing Attack",
+    "Lumina": "Base Attack applies Defenceless for 1 turn.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed +20, Critical Rate +4%",
+    "Cost": 10
+  },
+  {
+    "Name": "Exposing Break",
+    "Lumina": "Apply Defenceless on Break.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Defense +681, Speed +280",
+    "Cost": 5
+  },
+  {
+    "Name": "Faster Than Strong",
+    "Lumina": "Always play twice in a row, but deal 50% less damage.",
+    "Type": "Support",
+    "Bonus Stats": "Health +876, Defense +373",
+    "Cost": 10
+  },
+  {
+    "Name": "First Offensive",
+    "Lumina": "First hit dealt and taken deals 50% more damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +41, Critical Rate +10%",
+    "Cost": 5
+  },
+  {
+    "Name": "First Strike",
+    "Lumina": "Play first.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +41, Crit Rate +10%",
+    "Cost": 10
+  },
+  {
+    "Name": "Fueling Break",
+    "Lumina": "Breaking a target doubles its Burn amount.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +65, Crit Rate +12%",
+    "Cost": 5
+  },
+  {
+    "Name": "Full Strength",
+    "Lumina": "25% increased damage on full Health.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +876, Defense +373",
+    "Cost": 15
+  },
+  {
+    "Name": "Glass Canon",
+    "Lumina": "Deal 25% more damage, but take 25% more damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +175",
+    "Cost": 10
+  },
+  {
+    "Name": "Gradient Break",
+    "Lumina": "+50% of a Gradient Charge on Breaking a target.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +434, Crit Rate +28%",
+    "Cost": 5
+  },
+  {
+    "Name": "Gradient Breaker",
+    "Lumina": "50% increased Break damage with Gradient Attacks.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 5
+  },
+  {
+    "Name": "Gradient Fighter",
+    "Lumina": "+25% increased damage with Gradient Attacks.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +182, Crit Rate +18%",
+    "Cost": 5
+  },
+  {
+    "Name": "Greater Defenceless",
+    "Lumina": "+15% to Defenceless damage amplification.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed +154, Crit Rate +17%",
+    "Cost": 15
+  },
+  {
+    "Name": "Greater Powerful",
+    "Lumina": "+15% to Powerful damage increase.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed +59, Crit Rate +23%",
+    "Cost": 10
+  },
+  {
+    "Name": "Greater Powerless",
+    "Lumina": "+15% to Powerless damage reduction.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +1,727, Speed +597",
+    "Cost": 15
+  },
+  {
+    "Name": "Greater Rush",
+    "Lumina": "+25% to Rush Speed increase.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +439, Crit Rate +12%",
+    "Cost": 10
+  },
+  {
+    "Name": "Greater Shell",
+    "Lumina": "+10% to Shell damage reduction.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +599, Defense +240",
+    "Cost": 10
+  },
+  {
+    "Name": "Greater Slow",
+    "Lumina": "+15% to Slow Speed reduction.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +647, Speed +266",
+    "Cost": 15
+  },
+  {
+    "Name": "Healing Boon",
+    "Lumina": "Heal 15% HP on applying a buff.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +647, Speed +266",
+    "Cost": 10
+  },
+  {
+    "Name": "Healing Counter",
+    "Lumina": "Recover 25% Health on Counterattack.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +751",
+    "Cost": 10
+  },
+  {
+    "Name": "Healing Death",
+    "Lumina": "On death, the rest of the Expedition recover all Health.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Speed +78, Critical Rate +13%",
+    "Cost": 5
+  },
+  {
+    "Name": "Healing Fire",
+    "Lumina": "Recover 25% Health when attacking a Burning target. Once per turn.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense +240, Speed +118",
+    "Cost": 10
+  },
+  {
+    "Name": "Healing Mark",
+    "Lumina": "Recover 25% Health on hitting a Marked enemy. Once per turn.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +65",
+    "Cost": 20
+  },
+  {
+    "Name": "Healing Parry",
+    "Lumina": "Recover 3% Health on Parry.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +127, Defense +34",
+    "Cost": 5
+  },
+  {
+    "Name": "Healing Share",
+    "Lumina": "Receive 15% of all Heals affecting other characters.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +467, Crit Rate +14%",
+    "Cost": 5
+  },
+  {
+    "Name": "Healing Stun",
+    "Lumina": "Recover 5% Health on hitting a Stunned target.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +876, Speed +173",
+    "Cost": 10
+  },
+  {
+    "Name": "Healing Tint Energy",
+    "Lumina": "Healing Tints also give 1 AP.",
+    "Type": "Support",
+    "Bonus Stats": "Health +216, Defense +71",
+    "Cost": 1
+  },
+  {
+    "Name": "Immaculate",
+    "Lumina": "30% increased damage until a hit is received.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +103, Crit Rate +15%",
+    "Cost": 10
+  },
+  {
+    "Name": "In Medias Res",
+    "Lumina": "+3 Shields on Battle Start, but max Health is halved.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense +1,310, Crit Rate +13%",
+    "Cost": 10
+  },
+  {
+    "Name": "Inverted Affinity",
+    "Lumina": "Apply Inverted on self for 3 turns on battle start. 50% increased damage while Inverted.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +270, Crit Rate +11%",
+    "Cost": 5
+  },
+  {
+    "Name": "Last Stand Critical",
+    "Lumina": "100% Critical Chance while fighting alone.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +168, Defense +50",
+    "Cost": 3
+  },
+  {
+    "Name": "Longer Burn",
+    "Lumina": "Burn duration is increased by 2.",
+    "Type": "Support",
+    "Bonus Stats": "Health +2,392, Defense +1,292",
+    "Cost": 15
+  },
+  {
+    "Name": "Longer Powerful",
+    "Lumina": "On applying Powerful, its duration is increased by 2.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Health +376, Crit Rate +13%",
+    "Cost": 10
+  },
+  {
+    "Name": "Longer Rush",
+    "Lumina": "On applying Rush, its duration is increased by 2.",
+    "Type": "Support",
+    "Bonus Stats": "Health +778, Speed +154",
+    "Cost": 10
+  },
+  {
+    "Name": "Longer Shell",
+    "Lumina": "On applying Shell, its duration is increased by 2.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +313, Defense +116",
+    "Cost": 10
+  },
+  {
+    "Name": "Marking Break",
+    "Lumina": "Apply Mark on Break.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +434, Crit Rate +28%",
+    "Cost": 5
+  },
+  {
+    "Name": "Marking Shots",
+    "Lumina": "20% chance to apply Mark on Free Aim shot.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +26, Critical Rate +2%",
+    "Cost": 3
+  },
+  {
+    "Name": "Painted Power",
+    "Lumina": "Damage can exceed 9,999.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +1,844",
+    "Cost": 5
+  },
+  {
+    "Name": "Painter",
+    "Lumina": "Convert all Physical damage to Void damage.",
+    "Type": "",
+    "Bonus Stats": "Speed +519, Crit Rate +31%",
+    "Cost": 10
+  },
+  {
+    "Name": "Perilous Parry",
+    "Lumina": "+1 AP on Parry, but damage received is doubled.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +54, Critical Rate +11%",
+    "Cost": 5
+  },
+  {
+    "Name": "Piercing Shot",
+    "Lumina": "25% increased Free Aim damage. Free Aim shots ignore Shields.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health, Critical Rate",
+    "Cost": 2
+  },
+  {
+    "Name": "Powered Attack",
+    "Lumina": "On every damage dealt, try to consume 1 AP. If successful, increase damage by 20%.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +132, Critical Rate +7%",
+    "Cost": 10
+  },
+  {
+    "Name": "Powerful Heal",
+    "Lumina": "Healing an ally also applies Powerful for 1 turn.",
+    "Type": "Support",
+    "Bonus Stats": "Health +2,162, Speed +434",
+    "Cost": 5
+  },
+  {
+    "Name": "Powerful Mark",
+    "Lumina": "Gain Powerful on hitting a Marked enemy.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed, Critical Rate",
+    "Cost": 5
+  },
+  {
+    "Name": "Powerful on Shell",
+    "Lumina": "Apply Powerful on applying Shell.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Defense +240, Critical Rate +16%",
+    "Cost": 10
+  },
+  {
+    "Name": "Powerful Revive",
+    "Lumina": "Apply Powerful for 3 turns when revived.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Speed +54, Critical Rate +11%",
+    "Cost": 3
+  },
+  {
+    "Name": "Powerful Shield",
+    "Lumina": "10% increased damage per Shield Point on self.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +651, Critical Rate +14%",
+    "Cost": 5
+  },
+  {
+    "Name": "Powerful Shots",
+    "Lumina": "20% chance to gain Powerful on Free Aim shot.",
+    "Type": "Support",
+    "Bonus Stats": "Health +983, Defense +44",
+    "Cost": 3
+  },
+  {
+    "Name": "Pro Retreat",
+    "Lumina": "Allows Flee to be instantaneous.",
+    "Type": "Support",
+    "Bonus Stats": "Health +2,485, Speed +503",
+    "Cost": 40
+  },
+  {
+    "Name": "Protecting Attack",
+    "Lumina": "Gain Shell for 1 turn on Base Attack.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +3,081, Defense +524",
+    "Cost": 10
+  },
+  {
+    "Name": "Protecting Death",
+    "Lumina": "On death, allies gain Shell.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +599, Speed +118",
+    "Cost": 5
+  },
+  {
+    "Name": "Protecting Heal",
+    "Lumina": "Healing an ally also applies Shell for 1 turn.",
+    "Type": "Support",
+    "Bonus Stats": "Health +395, Speed +78",
+    "Cost": 5
+  },
+  {
+    "Name": "Protecting Last Stand",
+    "Lumina": "Gain Shell if fighting alone.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +168, Defense +50",
+    "Cost": 3
+  },
+  {
+    "Name": "Protecting Tint",
+    "Lumina": "Healing Tints also apply Shell.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +1,403, Defense +681",
+    "Cost": 5
+  },
+  {
+    "Name": "Quick Break",
+    "Lumina": "Play again on Breaking a target.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +434, Critical Rate +28%",
+    "Cost": 3
+  },
+  {
+    "Name": "Random Defense",
+    "Lumina": "Damage taken is randomly multiplied by a value between 50% and 200%.",
+    "Type": "Defensive",
+    "Bonus Stats": "Critical Rate +34%",
+    "Cost": 5
+  },
+  {
+    "Name": "Recovery",
+    "Lumina": "Recovers 10% Health on turn start.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +2,000, Defense +324",
+    "Cost": 10
+  },
+  {
+    "Name": "Rejuvenating Revive",
+    "Lumina": "Apply Regen for 3 turns when revived.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health, Defense",
+    "Cost": 3
+  },
+  {
+    "Name": "Revive Paradox",
+    "Lumina": "Play immediately when revived.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +92, Critical Rate +14%",
+    "Cost": 5
+  },
+  {
+    "Name": "Revive Tint Energy",
+    "Lumina": "Revive Tints also give 3 AP.",
+    "Type": "Support",
+    "Bonus Stats": "Health +257, Defense +92",
+    "Cost": 10
+  },
+  {
+    "Name": "Rewarding Mark",
+    "Lumina": "+2 AP on dealing damage to a Marked target. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Defense +20, Speed +7",
+    "Cost": 5
+  },
+  {
+    "Name": "Roulette",
+    "Lumina": "Every hit has a 50% chance to deal either 50% or 200% of its damage.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +34, Critical Rate +9%",
+    "Cost": 5
+  },
+  {
+    "Name": "Rush on Powerful",
+    "Lumina": "Apply Rush on applying Powerful.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +557, Critical Rate +32%",
+    "Cost": 10
+  },
+  {
+    "Name": "Second Chance",
+    "Lumina": "Revive with 100% Health. Once per battle.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +1,107, Critical Rate +8%",
+    "Cost": 40
+  },
+  {
+    "Name": "Shared Care",
+    "Lumina": "When healing an ally, also Heal self for 50% of that value.",
+    "Type": "Defensive",
+    "Bonus Stats": "Health +206, Defense +68",
+    "Cost": 10
+  },
+  {
+    "Name": "Shell On Rush",
+    "Lumina": "Apply Shell on applying Rush.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +1,048, Speed +413",
+    "Cost": 10
+  },
+  {
+    "Name": "Shield Affinity",
+    "Lumina": "30% increased damage while having Shields, but receiving any damage always removes all Shields.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +118, Crit Rate +16%",
+    "Cost": 15
+  },
+  {
+    "Name": "Shielding Death",
+    "Lumina": "On death, allies gain 3 Shield points.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Defense +801, Speed +161",
+    "Cost": 10
+  },
+  {
+    "Name": "Shielding Tint",
+    "Lumina": "Healing Tints also add 2 Shields.",
+    "Type": "Defensive/Support",
+    "Bonus Stats": "Health +313, Defense +116",
+    "Cost": 10
+  },
+  {
+    "Name": "Shortcut",
+    "Lumina": "Immediately play when falling below 30% Health. Once per battle.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +672, Crit Rate +36%",
+    "Cost": 5
+  },
+  {
+    "Name": "Slowing Break",
+    "Lumina": "Apply Slow on Break.",
+    "Type": "Support",
+    "Bonus Stats": "Defense, Speed",
+    "Cost": 5
+  },
+  {
+    "Name": "Sniper",
+    "Lumina": "First Free Aim shot each turn deals 200% increased damage and can Break.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +552, Crit Rate +13%",
+    "Cost": 15
+  },
+  {
+    "Name": "Solidifying",
+    "Lumina": "+2 Shields when the character's Health falls below 50%. Once per battle.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense +116, Speed +62",
+    "Cost": 10
+  },
+  {
+    "Name": "Solo Fighter",
+    "Lumina": "Deal 50% more damage if fighting alone.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +168, Defense +50",
+    "Cost": 1
+  },
+  {
+    "Name": "SOS Power",
+    "Lumina": "Apply Powerful when falling below 50% Health.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +43, Crit Rate +10%",
+    "Cost": 5
+  },
+  {
+    "Name": "SOS Rush",
+    "Lumina": "Apply Rush when falling below 50% Health.",
+    "Type": "Offensive/Support",
+    "Bonus Stats": "Defense +288, Speed +142",
+    "Cost": 5
+  },
+  {
+    "Name": "SOS Shell",
+    "Lumina": "Apply Shell when falling below 50% Health.",
+    "Type": "Defensive",
+    "Bonus Stats": "Defense +13, Speed +14",
+    "Cost": 5
+  },
+  {
+    "Name": "Staggering Attack",
+    "Lumina": "50% increased Break damage on Base Attack.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +21, Critical Rate +4%",
+    "Cost": 1
+  },
+  {
+    "Name": "Stay Marked",
+    "Lumina": "50% chance to apply Mark when attacking a Marked target.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +201, Critical Rate +12%",
+    "Cost": 10
+  },
+  {
+    "Name": "Stun Boost",
+    "Lumina": "30% increased damage on Stunned targets.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +35, Critical Rate +2%",
+    "Cost": 10
+  },
+  {
+    "Name": "Survivor",
+    "Lumina": "Survive fatal damage with 1 Health. Once per battle.",
+    "Type": "Defensive",
+    "Bonus Stats": "Speed +439, Critical Rate +12%",
+    "Cost": 20
+  },
+  {
+    "Name": "Sweet Kill",
+    "Lumina": "Recover 50% Health on killing an enemy.",
+    "Type": "Defensive",
+    "Bonus Stats": "Speed +54, Critical Rate +11%",
+    "Cost": 5
+  },
+  {
+    "Name": "Tainted",
+    "Lumina": "15% increased damage for each Status Effect on self.",
+    "Type": "Offensive",
+    "Bonus Stats": "Defense +1,022, Critical Rate +12%",
+    "Cost": 3
+  },
+  {
+    "Name": "Teamwork",
+    "Lumina": "10% increased damage while all allies are alive.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +216, Defense +71",
+    "Cost": 5
+  },
+  {
+    "Name": "The One",
+    "Lumina": "Max Health is reduced to 1.",
+    "Type": "Support",
+    "Bonus Stats": "Critical Rate +108%",
+    "Cost": 1
+  },
+  {
+    "Name": "Time Tint",
+    "Lumina": "Energy Tints also apply Rush.",
+    "Type": "Support",
+    "Bonus Stats": "Health +376, Defense +145",
+    "Cost": 10
+  },
+  {
+    "Name": "Versatile",
+    "Lumina": "After a Free Aim hit, Base Attack damage is increased by 50% for 1 turn.",
+    "Type": "Offensive",
+    "Bonus Stats": "Speed +21, Critical Rate +4%",
+    "Cost": 5
+  },
+  {
+    "Name": "Warming Up",
+    "Lumina": "5% increased damage per turn. Can stack up to 5 times.",
+    "Type": "Offensive",
+    "Bonus Stats": "Health +1,166, Critical Rate +9%",
+    "Cost": 15
+  },
+  {
+    "Name": "Weakness Gain",
+    "Lumina": "+1 AP on hitting an enemy's Weakness. Once per turn.",
+    "Type": "Support",
+    "Bonus Stats": "Speed +162, Critical Rate +17%",
+    "Cost": 5
+  }
+  ]
+
+
+
+
+}
