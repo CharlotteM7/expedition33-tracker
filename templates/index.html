@@ -30,6 +30,8 @@
             {% if item is string %}
               {{ item }}
 
+              {# ----------------- PICTOS ----------------- #}
+
             {% elif item.get('Name') %}
               <strong>{{ item.Name }}</strong><br>
               <em>Type: {{ item.Type }}<br>Bonus: {{ item["Bonus Stats"] }}</em><br>
@@ -38,21 +40,31 @@
                 <span style="color: grey;">(Cost: {{ item.Cost }})</span>
               {% endif %}
 
+              {# ----------------- MANOR ROOMS ----------------- #}
+
             {% elif item.get('room') and item.get('entry_location') %}
               <strong>{{ item.room }}</strong> from <em>{{ item.entry_location }}</em><br>
               <small>{{ item.details }}</small>
 
-            {% elif item.get('location') and item.get('details') %}
+      {# ----------------- MIMES ----------------- #}
+            {% elif category == "Mimes" and item.get('location') and item.get('details') %}
               <strong>{{ item.location }}</strong><br>
               <small>{{ item.details }}</small>
 
-            {% elif item.get('name') and item.get('location') %}
+{# ----------------- MUSIC RECORDS ----------------- #}
+            {% elif category == "Music Records" and item.get('name') and item.get('location') %}
+              <strong>{{ item.name }}</strong><br>
+              <em>{{ item.location }}</em>
+
+            {# ----------------- JOURNAL ENTRIES ----------------- #}
+            {% elif category == "Journal Entries" and item.get('name') and item.get('location') %}
               <strong>{{ item.name }}</strong><br>
               <em>{{ item.location }}</em><br>
-              {% if item.get('details') %}
+              {% if item.details %}
                 <span class="details">{{ item.details }}</span>
               {% endif %}
 
+            {# ----------------- GENERIC LOCATION ITEM ----------------- #}
             {% elif item.get('location') %}
               {{ item.location }}
 
