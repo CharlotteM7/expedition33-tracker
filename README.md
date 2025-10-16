@@ -1,4 +1,5 @@
 # Expedition 33 Tracker
+https://expedition33-tracker.onrender.com/ 
 
 A lightweight Flask web application to track collectibles and progress in *Expedition 33*, including:
 
@@ -35,6 +36,7 @@ pip install -r requirements.txt
 # Run the app
 python app.py
 ```
+<img width="787" height="864" alt="image" src="https://github.com/user-attachments/assets/5ba2bed8-0a64-487b-88ff-b928efd2dda3" />
 
 
 ## 📖 Credits
